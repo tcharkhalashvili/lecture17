@@ -1,0 +1,98 @@
+.domain_section {
+  background-color: #f5f5f5;
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+
+.domain_section .domain-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5fr 7fr;
+      grid-template-columns: 5fr 7fr;
+}
+
+.domain_section .domain-items .domain_search {
+  margin: 0;
+  padding: 0;
+}
+
+.domain_section .domain-items .domain_search .submit {
+  background-color: #443b97;
+  color: #fff;
+  font-size: 14px;
+  height: 70px;
+  padding: 5px 55px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.domain_section .domain-items .domain_search .submit:hover {
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.domain_section .domain-items .domain_search .list {
+  background-color: #f5f5f5;
+  border: 1px solid #e4e4e4;
+  color: #272727;
+  width: 102px;
+  height: 70px;
+  padding: 10px;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.domain_section .domain-items .domain_search .search {
+  background-color: gainsboro;
+  border: 1px solid #e4e4e4;
+  color: #727272;
+  float: left;
+  font-size: 15px;
+  height: 70px;
+  padding: 7px 10px;
+  width: 60%;
+}
+
+.domain_section .domain-items .domain_list_body {
+  display: -ms-grid;
+  display: grid;
+  height: auto;
+}
+
+.domain_section .domain-items .domain_list_body ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.domain_section .domain-items .domain_list_body ul li {
+  border-right: 1px solid #e4e4e4;
+  color: #242424;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.domain_section .domain-items .domain_list_body ul li .price {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.domain_section .domain-items .domain_list_body ul li span {
+  display: block;
+  font-size: 26px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=domain.css.map */

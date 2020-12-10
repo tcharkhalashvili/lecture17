@@ -1,0 +1,106 @@
+.slider_section {
+  background-image: url("images/slider.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+
+.slider_section .slider_items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding-top: 90px;
+}
+
+.slider_section .slider_items .left_title i {
+  margin-right: 5px;
+}
+
+.slider_section .slider_items .left_title li {
+  color: #ccc;
+  line-height: 30px;
+}
+
+.slider_section .slider_items .left_title li a {
+  display: block;
+  color: #fff;
+  width: 230px;
+  height: 30px;
+  background: #e54b84;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.slider_section .slider_items .left_title li a:hover {
+  background: white;
+  color: black;
+}
+
+.slider_section .slider_items .left_title span {
+  color: white;
+  font-size: 54px;
+  width: 67%;
+  margin-top: 30px;
+}
+
+.slider_section .slider_items .circle_sm {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 95px;
+  right: 227px;
+  z-index: 3;
+  padding: 22px 0;
+}
+
+.slider_section .slider_items .circle_sm span {
+  text-align: center;
+  font-size: 16px;
+  display: block;
+}
+
+.slider_section .slider_items .circle_sm .price {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.slider_section .slider_items .circle_md {
+  width: 130px;
+  height: 130px;
+  background: #e54b84;
+  border-radius: 100%;
+  position: absolute;
+  top: 90px;
+  right: 109px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 0;
+  padding: 28px 0;
+  color: #fff;
+}
+
+.slider_section .slider_items .circle_md span {
+  text-align: center;
+  font-size: 18px;
+  display: block;
+}
+
+.slider_section .slider_items .circle_md .price {
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+}
+/*# sourceMappingURL=slider.css.map */

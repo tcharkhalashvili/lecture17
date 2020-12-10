@@ -1,0 +1,107 @@
+.pricing_section {
+  background: rgba(0, 0, 0, 0) url(./images/ce-parallax-1.jpg) no-repeat fixed 50% 0;
+}
+
+.pricing_section .items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 648px 315px;
+      grid-template-rows: 648px 315px;
+}
+
+.pricing_section .items .title {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.pricing_section .items .description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #443b97;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.pricing_section .pricing_top {
+  background-color: rgba(245, 245, 245, 0.9);
+  padding-top: 120px;
+}
+
+.pricing_section .pricing_top .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  margin-top: 70px;
+  height: 580px;
+}
+
+.pricing_section .pricing_top .cards .card {
+  background-color: #fff;
+  padding-top: 20px;
+  text-align: center;
+  padding: 40px;
+}
+
+.pricing_section .pricing_top .cards .card .card_bottom a {
+  color: white;
+  text-align: center;
+  position: absolute;
+  border: 1px solid #fff;
+  padding: 10px 36px;
+  margin: 0px -74px;
+  font-weight: bold;
+}
+
+.pricing_section .pricing_top .cards .card .card_bottom a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.pricing_section .pricing_top .cards .card .pricing_list {
+  padding: 20px 0;
+  display: -ms-grid;
+  display: grid;
+  margin-bottom: 95px;
+}
+
+.pricing_section .pricing_top .cards .card .pricing_list span {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.pricing_section .pricing_top .cards .card .price {
+  color: #443b97;
+  margin: 15px auto 0 auto;
+  padding: 20px 0px;
+  width: 100px;
+  border-bottom: 1px solid #443b97;
+}
+
+.pricing_section .pricing_top .cards .card .price .many {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.pricing_section .pricing_top .cards .card .price .mo {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pricing_section .pricing_top .cards .card .basic {
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.pricing_section .pricing_bottom {
+  background-color: rgba(68, 59, 151, 0.9);
+}
+/*# sourceMappingURL=pricing.css.map */

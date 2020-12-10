@@ -1,0 +1,121 @@
+.description_section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.description_section .items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.description_section .items .item {
+  height: auto;
+}
+
+.description_section .items .item .description_img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.description_section .items .item .text_description {
+  background-color: #e54b84;
+  text-align: center;
+  padding: 70px;
+  margin: 80px 0 4px 0;
+}
+
+.description_section .items .item .text_description .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+
+.description_section .items .item .text_description .circle i.fa.fa-plus {
+  color: #fff;
+}
+
+.description_section .items .item .text_description span {
+  color: #ffffff78;
+  font-size: 16px;
+}
+
+.description_section .items .item .text_description p {
+  font-size: 16px;
+  color: white;
+  width: 100%;
+}
+
+.description_section .items .item .text_description h4 {
+  color: #fff;
+  font-size: 22px;
+  text-decoration: underline;
+  padding: 39px;
+  margin-top: 4px;
+}
+
+.description_section .items .item .text {
+  background-color: #443b97;
+  text-align: center;
+  padding: 70px;
+}
+
+.description_section .items .item .text .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+
+.description_section .items .item .text .circle i.fa.fa-plus {
+  color: #fff;
+}
+
+.description_section .items .item .text span {
+  color: #ffffff78;
+  font-size: 16px;
+}
+
+.description_section .items .item .text p {
+  font-size: 16px;
+  color: white;
+  width: 100%;
+}
+
+.description_section .items .item .text h4 {
+  color: #fff;
+  font-size: 22px;
+  text-decoration: underline;
+  padding: 39px;
+  margin-top: 4px;
+}
+
+.description_section .items .item .image img {
+  width: 100%;
+  height: 510px;
+}
+/*# sourceMappingURL=description.css.map */

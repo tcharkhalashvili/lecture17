@@ -1,0 +1,88 @@
+.features_section{
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    .title{
+        text-align: center;
+        font-size: 27px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    .description{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        color: #443b97;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    
+    .boxes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+        
+
+        .itembox {
+            height: 350px;
+            background-color: #443b97;
+            border: 2px solid #443b97;
+            color: #fff;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            text-align: center;
+            transition: all 0.3s ease-out 0s;
+            padding: 50px;
+
+            .lorem {
+                font-size: 15px;
+                margin-bottom: 15px;
+            }
+
+            .circle {
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+                border: 2px solid #ccc;
+                margin: 0 auto;
+                align-items: center;
+                display: grid;
+
+                i.fa.fa-plus {
+                    color: #ccc;
+                    font-size: 19px;
+                }
+            }
+
+            .hosting {
+                font-size: 22px;
+                margin-bottom: 18px;
+            }
+
+            
+            .icon{
+                font-size: 50px;
+                
+            }
+
+
+        }
+
+        .itembox:hover, .itembox.active{
+            background: white;
+            color: #443b97;
+        }
+
+        .itembox:hover .lorem{
+            color: #727272;
+        }
+
+        .itembox a:hover, .itembox a:hover i {
+            border-color: #443b97;
+            color: #443b97 !important;
+        }
+
+    }
+}

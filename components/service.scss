@@ -1,0 +1,57 @@
+.service_section{
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    .title{
+        text-align: center;
+        font-size: 27px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    .description{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        color: #443b97;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 30px;
+
+        .item {
+            padding-top: 16px;
+            padding-left: 16px;
+
+            i.fas.fa-globe {
+                float: left;
+                margin: 0px 20px 0px 0px;
+            }
+
+            .icon {
+                font-size: 32px;
+                color: #443b97;
+            }
+    
+            .web_title {
+                font-size: 18px;
+                color: #272727;
+                
+            }
+
+            .web_description {
+                color: #b1b1b1;
+                font-size: 14px;
+                padding: 17px 0 17px 50px;
+            }
+
+        }
+
+    }
+
+}
